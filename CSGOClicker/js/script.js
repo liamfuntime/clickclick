@@ -36,7 +36,7 @@ var operationCases = {
   case4: {name: "Operation Vanguard Case", price: 0.16, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFIuh6rJImVGvtjllYaNka6la7rUxWkE65BzibvD9N7z0Q22-0Fka2GlJ5jVLFHqavWW2g"},
   case5: {name: "Chroma Case", price: 0.07, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFEuh_KQJTtEuI63xIXbxqOtauyClTMEsJV1jruS89T3iQKx_BBqa2j3JpjVLFH1xpp0EQ"},
   case6: {name: "Falchion Case", price: 0.03, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FF8ugPDMIWpAuIq1w4KIlaChZOyFwzgJuZNy3-2T89T0jlC2rhZla2vwIJjVLFHz75yKpg"},
-  case7: {name: "ThatOneCrate", price: 200, img: "http://www.minecraftguides.org/blocks/chest.png"}
+  case7: {name: "Overpowered Crate", price: 500.00, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsRVx4MwFo5_T3eAQ3i6DMIW0X7ojiwoHax6egMOKGxj4G68Nz3-jCp4itjFWx-ktqfSmtcwqVx6sT"}
 }
 
 var knives = {
@@ -156,18 +156,11 @@ var knives = {
     knife12: {name: "★ Falchion Knife | Stained", price: 54.27, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1fLEcjVL49KJlZG0kfjmML7VqWdY781lteXA54vwxge28ktqNz-gJ4-QJwA4YV-E-we-xLi80Zfqv8jPm3owuHMgtn6LmhypwUYb5tWmOP0"},
     knife13: {name: "★ Falchion Knife | Urban Masked", price: 43.33, img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1fLEcjVL49KJh5C0g_bkNoTEhGlQ5vp9g-7J4bP5iUazrl0_YGDzINOdcwBsNwvT-gLqwO3v1JHtvZXPzCc1uSdz5n2IyxW0hRtIcKUx0k4sDK_g"}
   },
-  case7: {
+ /* case7: {
     knife1: {name: "★ Karambit | Fade",
     price: 1000.00,
     img: "https://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz5wOuqzNQhscxbDDKJXSMo79TfqCCM318tqU9-iyLcHO1u6qtHPMrYkMIxLGsOBDqWEMFqu7x5sgvRZKsHY9iLu2HvvbmpbCRbrqGwa2LjQGA46XOw"},
-  },
-  /*
-        weap7: {
-        name: "★ Karambit | Fade",
-        price: 1000.00,
-        img: "https://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz5wOuqzNQhscxbDDKJXSMo79TfqCCM318tqU9-iyLcHO1u6qtHPMrYkMIxLGsOBDqWEMFqu7x5sgvRZKsHY9iLu2HvvbmpbCRbrqGwa2LjQGA46XOw"
-      }
-      */
+}, */
 }
 
 // cases
@@ -658,6 +651,11 @@ var cases = {
         name: "USP-S | Torque",
         price: 0.24,
         img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo6m1FBRp3_bGcjhQ09-jq5WYh8jkIbTWhG5C-8xnteXI8oTht1i1uRQ5fWDyd9LAdQ4_MgzQqVm7wey918TuupufynUw6Sd05C2MyRfmgBgfbuBxxavJa8F12Qc"
+      },
+      weap7: {
+        name: "★ Karambit | Fade",
+        price: 1000.00,
+        img: "https://steamcommunity-a.akamaihd.net/economy/image/fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZYMUrsm1j-9xgEObwgfEh_nvjlWhNzZCveCDfIBj98xqodQ2CZknz5wOuqzNQhscxbDDKJXSMo79TfqCCM318tqU9-iyLcHO1u6qtHPMrYkMIxLGsOBDqWEMFqu7x5sgvRZKsHY9iLu2HvvbmpbCRbrqGwa2LjQGA46XOw"
       }
     },
     restricted: {
@@ -956,28 +954,7 @@ $("#caseTab").click(function() {
     }
   }
 });
-
-$("#statsTab").click(function() {
-  if ($(".caseContainer").css('display') == 'none') {
-    $(this).toggleClass("active");
-    $("#jackpotTab").removeClass("active");
-    $("#upgradeTab").removeClass("active");
-    $("#inventoryTab").removeClass("active");
-    $("#caseTab").removeClass("active");
-    $("#keyTab").removeClass("active");
-    $(".upgradeContainer").hide();
-    $(".jackpotRightContainer").hide();
-    $(".inventoryContainer").hide();
-    $(".caseContainer").show();
-    $(".rightMain").css("bottom","135px");
-    //$(".tradeButtonContainer").show();
-    //if ($(".unboxing").css('display') !== 'block') {
-    //  $(".unboxing").show();
-    //  $(".jackpot").hide();
-    //}
-  }
-});
-
+/*
 $("#keyTab").click(function() {
   if ($(".caseContainer").css('display') == 'none') {
     $(this).toggleClass("active");
@@ -997,7 +974,7 @@ $("#keyTab").click(function() {
     }
   }
 });
-
+*/
 $("#inventoryTab").click(function() {
   if ($(".inventoryContainer").css('display') == 'none') {
     $(this).toggleClass("active");
@@ -1720,7 +1697,7 @@ setInterval(function() {
 
 setTimeout(function() {
   $("#notif").toggleClass("hidden");
-  setTimeout(function() {
+setTimeout(function() {
     $("#notif").toggleClass("hidden");
   }, 5000);
 }, 1500);
